@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_travel_ui/screens/home_screen.dart';
 
 class States extends StatelessWidget {
-  const States({Key? key}) : super(key: key);
+  const States({Key key}) : super(key: key);
 
   static const String _title = 'States of India';
   @override
@@ -20,7 +20,7 @@ class States extends StatelessWidget {
 }
 
 class Dropdown extends StatefulWidget {
-  const Dropdown({Key? key}) : super(key: key);
+  const Dropdown({Key key}) : super(key: key);
 
   @override
   State<Dropdown> createState() => _Dropdown();
@@ -42,9 +42,9 @@ class _Dropdown extends State<Dropdown> {
         height: 2,
         color: Colors.deepPurpleAccent,
       ),
-      onChanged: (String? newValue) {
+      onChanged: (String newValue) {
         setState(() {
-          dropdownValue = newValue!;
+          dropdownValue = newValue;
         });
       },
       items: <String>['One', 'Two', 'Free', 'Four']
