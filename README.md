@@ -25,3 +25,9 @@ User
        - pass
        - confirm pass
       
+THEME COLORS:
+#033a34
+#058881
+#f1c7bb
+#e3b081
+#7a4732
