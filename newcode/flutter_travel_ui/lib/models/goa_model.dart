@@ -1,5 +1,5 @@
-import 'package:flutter_travel_ui/models/activity_model.dart';
-import 'package:flutter_travel_ui/models/hotel_model.dart';
+import 'package:yatravel/models/activity_model.dart';
+import 'package:yatravel/models/hotel_model.dart';
 
 class Option {
   String imageUrl;
