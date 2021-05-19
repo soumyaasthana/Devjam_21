@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_travel_ui/models/goa_model.dart';
-import 'package:flutter_travel_ui/screens/monuments.dart';
+import 'package:yatravel/models/goa_model.dart';
+import 'package:yatravel/screens/monuments.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class GoaCarousel extends StatelessWidget {
