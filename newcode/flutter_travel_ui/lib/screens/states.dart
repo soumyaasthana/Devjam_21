@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_travel_ui/screens/delhi.dart';
-import 'package:flutter_travel_ui/screens/himachalpradesh.dart';
-import 'package:flutter_travel_ui/screens/goa.dart';
+import 'package:yatravel/screens/delhi.dart';
+import 'package:yatravel/screens/himachalpradesh.dart';
+import 'package:yatravel/screens/goa.dart';
 
 
 class States extends StatelessWidget {
