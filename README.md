@@ -1,18 +1,21 @@
 # Devjam_21
 
 TO DO LIST
-1. Widget Layout
-  
-  
-  
-  
-3. to-do list
+3. widget layout
 4. animations/images
 5. information for each state (just a gist)
 6. Code dart
 7. google api
 8. documents on firestore
 9. logo
+
+DONE
+homescreen widget -> states -> delhi,hp,goa,assam,kerala,rajasthan
+
+logo design
+
+information 
+
 
 
 DOCUMENTS FIRESTONE
@@ -32,4 +35,5 @@ THEME COLORS:
 #e3b081
 #7a4732
 
-Hi, Soumya here!
+ICONS
+https://fontawesome.com/icons?d=gallery&p=2&m=free
