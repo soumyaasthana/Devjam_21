@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_travel_ui/widgets/goa_carousel.dart';
+import 'package:yatravel/widgets/goa_carousel.dart';
 
 class Goa extends StatelessWidget {
   static const String _title = 'Goa';
