@@ -3,6 +3,7 @@ import 'package:flutter_travel_ui/widgets/destination_carousel.dart';
 import 'package:flutter_travel_ui/widgets/hotel_carousel.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter_travel_ui/screens/states.dart';
+import 'package:random/maps.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -113,7 +114,8 @@ class _HomeScreenState extends State<HomeScreen> {
             title: SizedBox.shrink(),
           ),
           BottomNavigationBarItem(
-            icon: Icon(
+            icon: IconButton(
+              onPressed:(){_navigateToNextScreen(context);},
               FontAwesomeIcons.mapMarkedAlt,
               size: 30.0,
             ),
@@ -124,3 +126,8 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
+void _navigateToNextScreen(BuildContext context) {
+  Navigator.of(context).push(MaterialPageRoute(builder: (context) => NewScreen()));
+}
+
