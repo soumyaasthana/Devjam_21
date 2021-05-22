@@ -113,9 +113,16 @@ class _HomeScreenState extends State<HomeScreen> {
             title: SizedBox.shrink(),
           ),
           BottomNavigationBarItem(
-            icon: Icon(
-              FontAwesomeIcons.mapMarkedAlt,
+             icon: IconButton(
+              icon: Icon(Icons.map,
               size: 30.0,
+            ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Map()),
+                );
+              },
             ),
             title: SizedBox.shrink(),
           )
